@@ -18,8 +18,8 @@ public class Dog {
 		
 		public static void main(String[] args) {
 			
-			Dog dog1=new Dog();
-			//how to access instance variables? --> by creating an object and using reference variable
+			Dog dog1=new Dog();// instance of the class 
+			//how to access instance variables? --> by creating an object and using reference variable(obj1 /obj2 etc)
 			dog1.name="Lucy";
 			dog1.size="Big";
 			dog1.age=5;
@@ -35,13 +35,13 @@ public class Dog {
 			//changing value of static variable
 			breed="Bulldog";
 			
-			Dog dog2=new Dog();
+			Dog dog2=new Dog();//another instance of class
 			dog2.name="Sharik";
 			dog2.size="Small";
 			dog2.age=2;
 			dog2.displayDog();
 			
-			Dog dog3=new Dog();
+			Dog dog3=new Dog();// another instance of class
 			dog3.name="Pepsi";
 			dog3.size="Big";
 			dog3.age=10;

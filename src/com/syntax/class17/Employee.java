@@ -6,13 +6,13 @@ public class Employee {
 	
 	
 	public static String title;
-	public String name;// ayni programin icinde her class ve package da kullanilabilir (access ) olur
+	public String name;//accessible everywhere /ayni programin icinde her class ve package da kullanilabilir (access ) olur
 	
-	protected String lastName;// accessible within the same package within all class in the same package
+	protected String lastName;// accessible within the same package // within all class in the same package
 	
-	double  salary;//default- accessible within the same package within all class in the same package   protecter and double similar but not same we will learn later
+	double  salary;//default- accessible within the same package// within all class in the same package   protecter and double similar but not same we will learn later
 	
-	private long ssn;// will be accessable only within the same class
+	private long ssn;// will be accessible ONLY within the same class
 	
 	public static void method1() {
 		
@@ -20,7 +20,7 @@ public class Employee {
 	}
 protected void method2() {
 		
-		System.out.println(" I am public method ");
+		System.out.println(" I am protected method ");
 	}
 
  void method3() {
@@ -34,14 +34,17 @@ private void method4() {
 		
 	}
 	public static void main(String[] args) {
+		
 		Employee emp=new Employee();
+		// accessing all variables
 		emp.name="John";
 		emp.lastName="Smith";  // in the same class we can access all variables
 		emp.salary=9000;
 		emp. ssn=908776766;
-	
+		
+	// accessing all methods
 		Employee.method1();
-		emp.method2();
+		emp.method2(); // in the same class we can access all methods
 		emp.method3();
 		emp.method4();  
 					
