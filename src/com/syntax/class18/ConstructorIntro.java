@@ -18,12 +18,17 @@ public class ConstructorIntro {
 	void hello() {
 		System.out.println(" Hello class");
 	}
+	
+	
 	public static void main(String[] args) {
 		
-		ConstructorIntro obj=new ConstructorIntro();// to call constructor this is enough
+		
+		ConstructorIntro obj=new ConstructorIntro();//creating an object and calling a constructor  to call constructor this is enough
 		
 		System.out.println(" Code after constructor ");
-		obj.hello(); // to call method we need instance ConstructorIntro obj=new ConstructorIntro();and obj.hello() 
+		
+		obj.hello(); // Calling methods
+		// to call method we need instance ConstructorIntro obj=new ConstructorIntro();and obj.hello() 
 		
 	}
 }
