@@ -19,8 +19,8 @@ public class USA {
 
 	//can I call a method inside another method? --> YES
 	public void displayInfo() {
-		//this.displayState();// using this. with method 
-		displayState();   //by default    compiler add this keyword to a method
+		this.displayState();// using this. with method 
+		//displayState();   //by default    compiler add this keyword to a method
 		displayStateCapital();
 	}
 

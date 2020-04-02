@@ -9,8 +9,8 @@ public class ThisKeyword {
 	}
 
 	public ThisKeyword(int a, int b) {
-		this.a=a;//this.a=100;
-		this.b=b;//this.b=200;
+		this.a=a;//this.a=10;
+		this.b=b;//this.b=20;
 	}
 
 	public void sum(int a, int b) {

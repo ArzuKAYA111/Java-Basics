@@ -9,7 +9,7 @@ public class Task1 {//   1 WAY
 	//Method should be visibly only  within same package ....>means it can be default or protected
 	
 	
-	protected static int sum( int [] num){
+	protected static int summ( int [] num){
 	int sum= 0;	
 	
   for ( int i= 0 ; i<num.length; i++) {  
@@ -26,9 +26,9 @@ public class Task1 {//   1 WAY
 		
 		int[] numbers= { 3,6,8,9,3,5,6};
 		
-		obj.sum( numbers); //accessing by the creating an instance of the class
+		obj.summ( numbers); //accessing by the creating an instance of the class
 	
-	System.out.println(	obj.sum( numbers));	
+	System.out.println(	obj.summ( numbers));	
 	}
 
 }
