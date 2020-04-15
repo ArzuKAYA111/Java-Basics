@@ -33,7 +33,7 @@ public class StudentTest {
 		
 		SyntaxStudent Sy= new SyntaxStudent ();
 		Sy.DoHomework();
-		Sy.learn(6);
+		Sy.own(6);
 		
 		CollegeStudent Co = new CollegeStudent ();
 		Co.DoHomework();
