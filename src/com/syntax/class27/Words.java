@@ -16,10 +16,14 @@ public class Words {
          word.add("Teacher");
          
          Iterator<String> words=word.iterator();
-        while (word.hasNext()) {
-        	
+        while (words.hasNext()) {
+        	String wrd=words.next();
+        	if(wrd.endsWith("e")) {
+        		words.remove();
+        	}
         	
         }
+        System.out.println(word);
 	}
 
 }

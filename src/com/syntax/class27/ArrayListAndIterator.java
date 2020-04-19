@@ -15,10 +15,15 @@ public static void main(String[] args) {
 		choco.add("snikers");
 		
 		//create arraylist of sweets
-		ArrayList<String> sweets=new ArrayList<>();
+		ArrayList<String> sweets=new ArrayList<>(choco);
 		sweets.add("ice cream");
 		sweets.add("cheese cake");
-		sweets.addAll(choco);
+		System.out.println(sweets); 
+		
+		sweets.addAll(choco);//bir arraylist'e baska arraylist ehlemenin 1. yolu
+		
+		//ArrayList<String> sweets=new ArrayList<>(choco);//bir arraylist'e baska arraylist ehlemenin 2. yolu
+	                                           //const^ractor kismina ekleniyor
 		
 		System.out.println(sweets.size());
 		System.out.println(sweets);
@@ -32,7 +37,7 @@ public static void main(String[] args) {
 		}
 		
 		//I want to get elements backwards
-		for(int i=sweets.size()-1; i>=0; i--) {
+		for(int i=sweets.size()-1; i>0; i--) {
 			System.out.print(sweets.get(i)+";");
 		}
 		
