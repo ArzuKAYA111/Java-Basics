@@ -8,6 +8,7 @@ import java.util.TreeMap;
 
 public class AllMaps {
 
+
 	public static void main(String[] args) {
 		//lets create a grocery map (item, quantity)in which we do not care about the order
 		Map<String, Integer> grocery=new HashMap<>();
@@ -53,6 +54,5 @@ public class AllMaps {
 		while(iterator.hasNext()) {
 			System.out.println("value = "+iterator.next());
 		}
-		//break till 11:50
 	}
 }

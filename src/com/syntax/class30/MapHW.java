@@ -20,7 +20,7 @@ public static void main(String[] args) {
 		building.put(5, "HP");
 		building.put(6, "Microsoft");
 		building.put(7, "Oracle");
-		
+	
 		System.out.println(building.size());
 		System.out.println(building);
 		

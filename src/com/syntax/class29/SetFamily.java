@@ -32,6 +32,8 @@ public class SetFamily {
 		//adding duplicate objects from veggies collection
 		food.addAll(veggies);
 		food.addAll(fruits);
+		food.add("null");
+		food.add("null");
 		System.out.println(food);
 	}
 }

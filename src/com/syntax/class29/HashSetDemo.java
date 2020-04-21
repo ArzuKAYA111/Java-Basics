@@ -16,7 +16,7 @@ public class HashSetDemo {
 		breakfast.add("cream cheese");
 		breakfast.add("eggs");
 		breakfast.add("coffee");
-
+		System.out.println(breakfast.clone());// it returns a shallow copy
 		// how many elements in the set?
 		int size = breakfast.size();
 		System.out.println(size);
