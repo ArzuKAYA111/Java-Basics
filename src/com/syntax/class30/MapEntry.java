@@ -16,7 +16,7 @@ public static void main(String[] args) {
 		month.put("February", 28);
 		month.put("March", 31);
 		month.put("April", 30);
-		
+		System.out.println(month.get("January"));// sectigimiz key degerine karsilik gelen value degerini verir
 		System.out.println(month.size());//gives number of entries
 		
 		//get all entries from a map

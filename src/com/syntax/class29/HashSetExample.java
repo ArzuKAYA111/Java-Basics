@@ -1,25 +1,29 @@
 package com.syntax.class29;
 
+import java.util.Collections;
 import java.util.HashSet;
 public class HashSetExample {
 public static void main(String args[]) {
-HashSet<String> hset = new HashSet<String>();
+HashSet<String> hsett = new HashSet<String>();
 // Adding elements to the HashSet
-hset.add("Apple");
-hset.add("Mango");
-hset.add("Grapes");
-hset.add("Orange");
-hset.add("Fig");
+hsett.add("Apple");
+hsett.add("Mango");
+hsett.add("Grapes");
+hsett.add("Orange");
+hsett.add("Fig");
 
 //Addition of duplicate elements
-hset.add("Apple");
-hset.add("Mango");
+hsett.add("Apple");
+hsett.add("Mango");
 
 //Addition of null values
-hset.add(null);
-hset.add(null);
+hsett.add(null);
+hsett.add(null);
 
 //Displaying HashSet elements
-System.out.println(hset);
+System.out.println(hsett);
+
+
+
 }
 }

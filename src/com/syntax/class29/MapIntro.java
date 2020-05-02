@@ -7,13 +7,20 @@ public class MapIntro {
 
 	public static void main(String[] args) {
 		//hashmap is not maintain order
-		Map<String, String>hmap=new HashMap<>();
+		HashMap<String, String>hmap=new HashMap<>();
 		
 		//to store values into Map we use put
 		hmap.put("Name", "John");
 		hmap.put("Last Name", "Smith");
 		hmap.put("Address", "123 Test");
 		hmap.put("City", "Chantilly");
+		
+		//hmap.containsKey("Address");//belirtilen key var mi yok mu ?
+		//hmap.entrySet();// Entry leri K+V veriyor
+		//hmap.get("Name");// girilen key e gore value yu veriyor
+	   // hmap.getClass();/// Map in hangi class oldugunu veriyor
+	   // hmap.clear();//Clear all entrieshmap.
+		
 		
 		//how to check if map has any values?
 		boolean isEmpty=hmap.isEmpty();
@@ -41,10 +48,10 @@ public class MapIntro {
 		hmap.replace("Zip", "98765");
 		System.out.println(hmap);
 		//To access all values 
-		System.out.println(hmap.values());
+		System.out.println(hmap.values()+" V");
 		//to acces all keys 
-		System.out.println(hmap.keySet());
+		System.out.println(hmap.keySet()+" K");
 		// how we acces all entries 
-		System.out.println(hmap.entrySet());
+		System.out.println(hmap.entrySet()+" ENTRY");
 	} 
 }
