@@ -11,7 +11,7 @@ public class WritePropertiesToFlile {
 	public static void main(String[] args) throws IOException {
 		
 		
-		String filePath="/Users/beyha/eclipse-workspace/JavaBasics/configs/Writing.Properties";
+		String filePath="/Users/beyha/eclipse-workspace/JavaBasics/configs/Writing.properties";
 		
 		FileInputStream fis= new FileInputStream(filePath);
 		

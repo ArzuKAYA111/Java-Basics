@@ -9,7 +9,7 @@ public class PropExampl {
 
 	public static void main(String[] args) throws IOException {
 		
-		String filePath="/Users/beyha/eclipse-workspace/JavaBasics/configs/Exmp.Properties";
+		String filePath="/Users/beyha/eclipse-workspace/JavaBasics/configs/Exmp.properties";
 	
 		FileInputStream fis=new FileInputStream(filePath);	
 		

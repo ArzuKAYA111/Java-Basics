@@ -15,7 +15,7 @@ public class MoreExplAddingExistingFile {
 				
 		String userDrictory=System.getProperty("user.dir");	
 				
-	String filePath=userDrictory+"\\configs\\AddingExistingfile.Properties\\";
+	String filePath=userDrictory+"\\configs\\AddingExistingfile.properties\\";
 		
 	FileInputStream fis= new FileInputStream(filePath);
 		

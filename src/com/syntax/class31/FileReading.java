@@ -7,7 +7,7 @@ public class FileReading {
 
 public static void main(String[] args) throws IOException {
 		
-	String filePath="/Users/beyha/eclipse-workspace/JavaBasics/configs/FileReading.Properties";
+	String filePath="/Users/beyha/eclipse-workspace/JavaBasics/configs/FileReading.properties";
 		System.out.println(filePath);
 		
 		String userDirectory=System.getProperty("user.dir");

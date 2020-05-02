@@ -15,10 +15,17 @@ public static void main(String[] args) throws IOException {
 		
 	
 	String filePath="//Users/beyha//eclipse-workspace//JavaBasics//TestExel//ToWrite.xlsx";
+	System.out.println(filePath);
+
 	
-	//	String filePath=System.getProperty("user.dir")+"\\TestExel\\ToWrite.xlsx";
-		
-		FileInputStream fis=new FileInputStream(filePath);
+  String filePath1=System.getProperty("user.dir")+"\\TestExel\\ToWrite.xlsx";
+  System.out.println(filePath1);
+
+
+
+
+
+		FileInputStream fis=new FileInputStream(filePath1);
 		
 		Workbook book=new XSSFWorkbook(fis);
 		

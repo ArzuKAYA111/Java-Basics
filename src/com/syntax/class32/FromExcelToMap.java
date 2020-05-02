@@ -16,6 +16,7 @@ public class FromExcelToMap {
 	public static void main(String[] args) throws IOException {
 
 		String filePath = System.getProperty("user.dir") + "\\TestExel\\Test.xlsx";
+		System.out.println(filePath);
 		
 		FileInputStream fis = new FileInputStream(filePath);
 
