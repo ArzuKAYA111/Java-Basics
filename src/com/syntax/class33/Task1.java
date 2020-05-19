@@ -4,7 +4,7 @@ package com.syntax.class33;
 public class Task1 {
 
 	public static void main(String[] args) {
-	int= 12.0;
+	int a=12;
 
 	
 	

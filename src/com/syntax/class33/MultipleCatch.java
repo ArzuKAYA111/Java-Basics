@@ -18,6 +18,7 @@ String file=System.getProperty("user.dir")+"/configs/Exmp.propertie";
 			
 		} catch (IOException e) {
 			e.printStackTrace();
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		} 

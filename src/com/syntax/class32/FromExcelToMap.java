@@ -39,9 +39,9 @@ public class FromExcelToMap {
 				map.put(key, value);
 			}
 			
-			listMap.add(map);
+			listMap.add(map);	
 		}
-		
 		System.out.println(listMap);
+	
 	}
 }
