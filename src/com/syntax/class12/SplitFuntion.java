@@ -25,7 +25,6 @@ System.out.println("----- split() FUNCTION -----");
 		//we want to print String word by word
 		String today2="Today is my favorite Java class";
 		String[] words=today2.split(" ");
-		
 		for(int i=0; i<words.length;i++) {
 			
 			System.out.println(words[i]);
